@@ -14,12 +14,12 @@ function App() {
 
       <Message count={count} />
       <h1>
-        Good{ismorning ? "Morning" : 'Night'}
+        Good {ismorning ? "Morning" : 'Night'}
       
       </h1>
 
       <button onClick={() => setmorning(!ismorning)}> 
-        update morning
+        update day
       
       </button>
       
