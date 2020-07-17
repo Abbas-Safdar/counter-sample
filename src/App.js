@@ -14,7 +14,7 @@ function App() {
 
       <Message count={count} />
       <h1>
-        Goood {ismorning ? "Morning" : 'Night'}
+        Good {ismorning ? "Morning" : 'Night'}
       
       </h1>
 
